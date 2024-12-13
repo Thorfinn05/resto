@@ -4,10 +4,10 @@ import { COLORS } from '../utils/constants';
 
 const REVIEWS = [
   {
-    name: "Amrita Sen",
+    name: "Aitijhya Roy",
     rating: 5,
-    comment: "The most authentic Bengali cuisine I've had outside Kolkata. The Kosha Mangsho was perfect!",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+    comment: "The most authentic Bengali cuisine I've had in Kolkata. The Kosha Mangsho and Firni was perfect!",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQHVGzsRpbdTWQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725171022287?e=1739404800&v=beta&t=oHb43A1eohFYHh1W8DNge_uOT2X7WFOdtbQIbLboUvU"
   },
   {
     name: "Rajdeep Chatterjee",
