@@ -40,7 +40,7 @@ export default function Events() {
     <section id="events" className="py-20 bg-gradient-to-b from-red-50 to-amber-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-red-600 font-serif text-xl mb-4">Cultural Celebrations</p>
+          <p className="text-red-600 font-serif text-2xl mb-4">Cultural Celebrations</p>
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
             Experience Bengali Traditions
           </h2>
@@ -48,7 +48,7 @@ export default function Events() {
 
         {/* Upcoming Events */}
         <div className="mb-20">
-          <h3 className="text-3xl font-serif font-bold text-center mb-12">Upcoming Events</h3>
+          <h3 className="text-3xl text-amber-800 font-serif font-bold text-center mb-12">Upcoming Events</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {UPCOMING_EVENTS.map((event, index) => (
               <div key={index} className="bg-white rounded-lg shadow-xl overflow-hidden group transform hover:-translate-y-1 transition-all duration-300">
@@ -86,7 +86,7 @@ export default function Events() {
 
         {/* Past Events */}
         <div>
-          <h3 className="text-3xl font-serif font-bold text-center mb-12">Past Events</h3>
+          <h3 className="text-3xl text-amber-800 font-serif font-bold text-center mb-12">Past Events</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {PAST_EVENTS.map((event, index) => (
               <div key={index} className="bg-white/80 rounded-lg shadow-lg overflow-hidden group">

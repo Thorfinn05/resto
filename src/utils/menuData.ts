@@ -47,10 +47,10 @@ export const BENGALI_DISHES = {
       image: "https://static.toiimg.com/photo/102574642/102574642.jpg"
     },
     {
-      name: "Bhapa Ilish",
-      price: "₹650",
-      description: "Steamed Hilsa with mustard paste",
-      image: "https://static.toiimg.com/photo/102574642/102574642.jpg"
+      name: "Basanti Polao",
+      price: "₹250",
+      description: "It is a sweet, ghee-laden rice dish made from fragrant gobindabhog or kalijeera rice, cashew nuts and raisins.",
+      image: "https://c.ndtvimg.com/2020-05/dj1fthfo_zarda-pulao_625x300_22_May_20.jpg"
     }
   ],
   desserts: [

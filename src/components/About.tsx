@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-red-600 font-serif text-xl mb-4">Our Story</p>
+            <p className="text-red-600 font-serif text-2xl mb-4">Our Story</p>
             <h2 className="text-4xl font-serif font-bold mb-6">A New Chapter in Bengali Cuisine</h2>
             <p className="text-gray-600 mb-6">
               Welcome to Rojjo's, where we're writing a fresh chapter in the story of Bengali cuisine. 
@@ -36,7 +36,7 @@ export default function About() {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf"
+              src="https://miro.medium.com/v2/resize:fit:624/0*SjWuyUt7Q6iDjDhc.png"
               alt="Restaurant interior"
               className="rounded-lg shadow-xl"
             />

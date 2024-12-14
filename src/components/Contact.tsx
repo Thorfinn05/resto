@@ -6,7 +6,7 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-yellow-500 font-serif text-xl mb-4">Contact Us</p>
+          <p className="text-yellow-500 font-serif text-2xl mb-4">Contact Us</p>
           <h2 className="text-4xl font-serif font-bold">Get in Touch</h2>
         </div>
 

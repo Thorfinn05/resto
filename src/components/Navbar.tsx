@@ -14,8 +14,11 @@ export default function Navbar() {
     <nav className="fixed w-full bg-black/90 text-white z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex-shrink-0">
-            <h1 className="text-3xl font-serif font-bold">Rojjo's</h1>
+          <div className="flex flex-row items-center cursor-pointer flex-shrink-0">
+          <span>
+              <img src='caferu.png' onClick={() => handleNavClick('home')} className='h-12 mr-2'/>
+            </span>
+            <button onClick={() => handleNavClick('home')} className="hover:text-red-500 transition-colors text-3xl text-amber-300 font-serif font-bold">Rojjo's</button>
           </div>
           
           {/* Desktop Menu */}

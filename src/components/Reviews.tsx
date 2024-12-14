@@ -28,7 +28,7 @@ export default function Reviews() {
     <section id="reviews" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-[${COLORS.primary}] font-serif text-xl mb-4">Guest Reviews</p>
+          <p className="text-red-600 font-serif text-2xl mb-4">Guest Reviews</p>
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
             What Our Guests Say
           </h2>
@@ -36,7 +36,7 @@ export default function Reviews() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {REVIEWS.map((review, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
+            <div key={index} className="bg-red-300 bg-opacity-30 border-2 border-lightText md:border-none shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
                 <img
                   src={review.image}
@@ -44,15 +44,15 @@ export default function Reviews() {
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold">{review.name}</h4>
-                  <div className="flex text-[${COLORS.accent}]">
+                  <h4 className="font-semibold text-red-600">{review.name}</h4>
+                  <div className="flex text-gray-900">
                     {[...Array(review.rating)].map((_, i) => (
                       <Star key={i} size={16} fill="currentColor" />
                     ))}
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 italic">"{review.comment}"</p>
+              <p className="text-yellow-900 italic">"{review.comment}"</p>
             </div>
           ))}
         </div>
