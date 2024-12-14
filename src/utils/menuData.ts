@@ -45,6 +45,12 @@ export const BENGALI_DISHES = {
       price: "₹650",
       description: "Steamed Hilsa with mustard paste",
       image: "https://static.toiimg.com/photo/102574642/102574642.jpg"
+    },
+    {
+      name: "Bhapa Ilish",
+      price: "₹650",
+      description: "Steamed Hilsa with mustard paste",
+      image: "https://static.toiimg.com/photo/102574642/102574642.jpg"
     }
   ],
   desserts: [

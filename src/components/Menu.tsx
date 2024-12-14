@@ -4,7 +4,7 @@ import { BENGALI_DISHES } from '../utils/menuData';
 
 export default function Menu() {
   return (
-    <section id="menu" className="py-20 bg-[#1A1A1A]">
+    <section id="menu" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-[#FCD34D] font-serif text-xl mb-4">Our Specialties</p>

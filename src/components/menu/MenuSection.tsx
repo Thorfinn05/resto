@@ -14,7 +14,7 @@ interface MenuSectionProps {
 
 export default function MenuSection({ title, items, className }: MenuSectionProps) {
   return (
-    <div className="mb-16 bg-black p-8 rounded-lg shadow-lg">
+    <div className="mb-16 bg-gradient-to-br from-[#DC2626] via-[#1A1A1A] to-black p-8 rounded-lg shadow-lg">
       <h3
         className={`text-3xl font-serif font-bold mb-8 text-center text-[#FCD34D] ${className}`}
       >

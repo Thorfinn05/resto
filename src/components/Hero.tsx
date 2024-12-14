@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60 z-10" />
         <img
-          src="https://images.unsplash.com/photo-1601050690597-df0568f70950"
+          src="https://media.istockphoto.com/id/1449996606/photo/delicious-lots-of-bengali-home-made-food-in-a-mud-plate-with-flower-decoration-for-wedding.jpg?s=612x612&w=0&k=20&c=vJ1TtAgvD4MPavcH7lZq3NiHU_cC7Wg-fJYRnWLxho0="
           alt="Bengali cuisine"
           className="w-full h-full object-cover"
         />
@@ -16,7 +16,7 @@ export default function Hero() {
       
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
         <div className="max-w-2xl">
-          <p className="text-amber-300 font-serif text-xl mb-4">Welcome to Rojjo's</p>
+          <p className="text-amber-300 font-serif text-3xl mb-4">Welcome to Rojjo's</p>
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">
             Experience Authentic<br />Bengali Cuisine
           </h1>

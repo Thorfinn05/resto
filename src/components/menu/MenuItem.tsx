@@ -9,7 +9,7 @@ interface MenuItemProps {
 
 export default function MenuItem({ name, price, description, image }: MenuItemProps) {
   return (
-    <div className="group relative overflow-hidden rounded-lg bg-black shadow-lg transition-transform duration-300 hover:-translate-y-2">
+    <div className="group relative overflow-hidden rounded-lg bg-gray-900 shadow-lg transition-transform duration-300 hover:-translate-y-2">
       <div className="aspect-w-16 aspect-h-9">
         <img
           src={image}

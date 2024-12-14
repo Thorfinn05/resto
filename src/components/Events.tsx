@@ -2,19 +2,19 @@ import React from 'react';
 import { Calendar, Clock } from 'lucide-react';
 
 const UPCOMING_EVENTS = [
-  {
-    title: "Winter Food Festival",
-    date: "December 20-25, 2024",
-    time: "12:00 PM - 10:00 PM",
-    description: "Experience the warmth of Bengali winter delicacies featuring Pithe, Puli, and special Nolen Gurer treats.",
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950"
-  },
+  // {
+  //   title: "Winter Food Festival",
+  //   date: "December 20-25, 2024",
+  //   time: "12:00 PM - 10:00 PM",
+  //   description: "Experience the warmth of Bengali winter delicacies.",
+  //   image: "https://pikturenama.com/wp-content/uploads/2019/09/DP-2019-Marriott-Kolkata-2.jpg"
+  // },
   {
     title: "Pithe Utsob",
     date: "January 14-16, 2024",
     time: "11:00 AM - 9:00 PM",
-    description: "Traditional Bengali winter dessert festival showcasing various types of Pithe and Puli.",
-    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307"
+    description: "Experience the warmth of Traditional Bengali winter delicacies featuring various types of Pithe, Puli and special Nolen Gurer treats.",
+    image: "https://cookwithbisht.com/wp-content/uploads/2024/06/Famous-Bengali-Dudh-Puli-Pitha-Recipe.jpg"
   }
 ];
 
@@ -24,14 +24,14 @@ const PAST_EVENTS = [
     date: "April 14, 2023",
     time: "6:00 PM - 10:00 PM",
     description: "A grand celebration of Pohela Boishakh with traditional Bengali cuisine and cultural performances.",
-    image: "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2"
+    image: "https://pikturenama.com/wp-content/uploads/2019/09/DP-2019-Marriott-Kolkata-2.jpg"
   },
   {
     title: "Durga Puja Food Festival",
     date: "October 15-24, 2023",
     time: "11:00 AM - 11:00 PM",
     description: "A celebration of Bengali cuisine during the auspicious days of Durga Puja.",
-    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Kolkata_Biryani.jpg/1200px-Kolkata_Biryani.jpg"
   }
 ];
 
