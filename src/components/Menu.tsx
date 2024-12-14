@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuSection from './menu/MenuSection';
-import { BENGALI_DISHES } from '../utils/constants';
+import { BENGALI_DISHES } from '../utils/menuData';
 
 export default function Menu() {
   return (
@@ -13,7 +13,6 @@ export default function Menu() {
           </h2>
         </div>
 
-        {/* Pass dynamic className for specific title colors */}
         <MenuSection
           title="Starters"
           items={BENGALI_DISHES.starters}

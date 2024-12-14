@@ -1,5 +1,5 @@
 import React from 'react';
-import { COLORS } from '../../utils/constants';
+import { COLORS } from '../../utils/menuData';
 
 interface ButtonProps {
   children: React.ReactNode;

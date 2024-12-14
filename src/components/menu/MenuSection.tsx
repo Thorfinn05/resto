@@ -9,14 +9,14 @@ interface MenuSectionProps {
     description: string;
     image: string;
   }>;
-  className?: string; // Allow customization of the section title
+  className?: string;
 }
 
 export default function MenuSection({ title, items, className }: MenuSectionProps) {
   return (
-    <div className="mb-16">
+    <div className="mb-16 bg-black p-8 rounded-lg shadow-lg">
       <h3
-        className={`text-3xl font-serif font-bold mb-8 text-center ${className || 'text-white'}`}
+        className={`text-3xl font-serif font-bold mb-8 text-center text-[#FCD34D] ${className}`}
       >
         {title}
       </h3>
