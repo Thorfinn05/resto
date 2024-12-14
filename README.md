@@ -1,8 +1,8 @@
-# Rojjo's Cafe & Restaurant
+# Rojjo's: Restaurant n Cafe
 
-Welcome to **Rojjo's Cafe & Restaurant**! This is a modern and interactive web application built to showcase an Authentic Bengali Culinary experience online. The website provides a delightful user interface, showcasing various menu items, their details, and the ability to explore the restaurant's offerings seamlessly.
+Welcome to **Rojjo's: Restaurant n Cafe**! This is a modern and interactive web application built to showcase an Authentic Bengali Culinary experience online. The website provides a delightful user interface, showcasing various menu items, their details, and the ability to explore the restaurant's offerings seamlessly.
 
-Check out the live demo of the project here: [Rojjo's Cafe & Restaurant](https://rojjos-cafenrestaurant.vercel.app/)
+Check out the live demo of the project here: [Rojjo's: Restaurant n Cafe](https://rojjos-cafenrestaurant.vercel.app/)
 
 ## Features
 
