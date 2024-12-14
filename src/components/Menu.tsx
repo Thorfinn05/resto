@@ -13,9 +13,22 @@ export default function Menu() {
           </h2>
         </div>
 
-        <MenuSection title="Starters" items={BENGALI_DISHES.starters} />
-        <MenuSection title="Main Course" items={BENGALI_DISHES.mainCourse} />
-        <MenuSection title="Desserts" items={BENGALI_DISHES.desserts} />
+        {/* Pass dynamic className for specific title colors */}
+        <MenuSection
+          title="Starters"
+          items={BENGALI_DISHES.starters}
+          className="text-gray-400"
+        />
+        <MenuSection
+          title="Main Course"
+          items={BENGALI_DISHES.mainCourse}
+          className="text-gray-400"
+        />
+        <MenuSection
+          title="Desserts"
+          items={BENGALI_DISHES.desserts}
+          className="text-gray-400"
+        />
       </div>
     </section>
   );
