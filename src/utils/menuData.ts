@@ -29,6 +29,24 @@ export const BENGALI_DISHES = {
   ],
   mainCourse: [
     {
+      name: "Basanti Polao",
+      price: "₹250",
+      description: "A sweet, ghee-laden rice dish made from fragrant gobindabhog or kalijeera rice, cashew nuts and raisins.",
+      image: "https://c.ndtvimg.com/2020-05/dj1fthfo_zarda-pulao_625x300_22_May_20.jpg"
+    },
+    {
+      name: "Shukto",
+      price: "₹180",
+      description: "A centuries-old stew that centers a bitter vegetable, typically karela, and lots of greens.",
+      image: "https://lh3.googleusercontent.com/proxy/dYBauUaJpwCdj9hz6gY0vYOBg3cxlCj6wUaj1cyWF2zRE9KfXc2nYIsWsd8-b2w5CZzQAXh6qJrr8uhJrxmgvrw0fRXzYw"
+    },
+    {
+      name: "Moong Daal",
+      price: "₹110",
+      description: "A Typical Bengali Yellow Split Lentil Soup prepared no Onion and no Garlic",
+      image: "https://peekncooksa.blob.core.windows.net/index-recipe/bhaja_muger_dal.jpg"
+    },
+    {
       name: "Kosha Mangsho",
       price: "₹450",
       description: "Slow-cooked mutton in rich Bengali spices",
@@ -46,20 +64,8 @@ export const BENGALI_DISHES = {
       description: "Steamed Hilsa with mustard paste",
       image: "https://static.toiimg.com/photo/102574642/102574642.jpg"
     },
-    {
-      name: "Basanti Polao",
-      price: "₹250",
-      description: "It is a sweet, ghee-laden rice dish made from fragrant gobindabhog or kalijeera rice, cashew nuts and raisins.",
-      image: "https://c.ndtvimg.com/2020-05/dj1fthfo_zarda-pulao_625x300_22_May_20.jpg"
-    }
   ],
   desserts: [
-    {
-      name: "Nolen Gurer Payesh",
-      price: "₹220",
-      description: "Rice pudding with date palm jaggery",
-      image: "https://www.vegrecipesofindia.com/wp-content/uploads/2017/11/bengali-rice-payesh-recipe-11-500x500.jpg"
-    },
     {
       name: "Mishti Doi",
       price: "₹180",
@@ -71,6 +77,32 @@ export const BENGALI_DISHES = {
       price: "₹30",
       description: "A syrupy dessert made from balls of chhena, an Indian cottage cheese, cooked in sugar syrup",
       image: "https://assets.cntraveller.in/photos/626a486c6511cf2003cee4ab/4:3/w_1440,h_1080,c_limit/best-rosogolla-kolkata-2.jpg"
-    }
+    },
+    {
+      name: "Sondesh (Changeable)",
+      price: "₹20",
+      description: "A dessert made by curdling milk and draining all the whey to collect the chana.",
+      image: "https://www.spiceupthecurry.com/wp-content/uploads/2019/10/sandesh-recipe-1-480x270.jpg"
+    },
+  ],
+  seasonals: [
+    {
+      name: "Kacha Aamer Chutney",
+      price: "₹70",
+      description: "Summer Special: A sweet and sour chutney prepared with green mangoes.",
+      image: "https://www.scratchingcanvas.com/wp-content/uploads/2017/03/Slider.Aamer-Chatni.jpg"
+    },
+    {
+      name: "Nolen Gurer Payesh",
+      price: "₹220",
+      description: "Winter Special: Rice pudding with date palm jaggery",
+      image: "https://www.vegrecipesofindia.com/wp-content/uploads/2017/11/bengali-rice-payesh-recipe-11-500x500.jpg"
+    },
+    {
+      name: "Phirni",
+      price: "₹110",
+      description: "A traditional dessert made with ground rice, sugar, milk and cardamoms.",
+      image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/phirni-firni-recipe.jpg"
+    },
   ]
 };

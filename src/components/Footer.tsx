@@ -7,14 +7,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-serif font-bold mb-4">Rojjo's</h3>
+            <h3 className="text-2xl font-serif font-bold mb-4 text-yellow-500 hover:text-white transition-colors">Rojjo's</h3>
             <p className="text-gray-400">
               Experience the perfect blend of flavors and ambiance at Kolkata's finest dining destination.
             </p>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4 text-yellow-500">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#home" className="text-gray-400 hover:text-yellow-500">Home</a></li>
               <li><a href="#menu" className="text-gray-400 hover:text-yellow-500">Menu</a></li>
@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
+            <h4 className="text-lg font-semibold text-yellow-500 mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
               <li>221/B Bakshi Street</li>
               <li>Kolkata-700032, West Bengal, India</li>
@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
+            <h4 className="text-lg font-semibold text-yellow-500 mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-yellow-500">
                 <Facebook />
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-yellow-700">
           <p>&copy; {new Date().getFullYear()} Rojjo's. All rights reserved. | Crafted by <a href="https://github.com/Thorfinn05"
             target="_blank">Rudranil Das</a></p>
         </div>

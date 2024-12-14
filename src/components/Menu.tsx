@@ -28,6 +28,11 @@ export default function Menu() {
           items={BENGALI_DISHES.desserts}
           className="text-gray-400"
         />
+        <MenuSection
+          title="Seasonals/Specials"
+          items={BENGALI_DISHES.seasonals}
+          className="text-gray-400"
+        />
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ export default function About() {
             <p className="text-red-600 font-serif text-2xl mb-4">Our Story</p>
             <h2 className="text-4xl font-serif font-bold mb-6">A New Chapter in Bengali Cuisine</h2>
             <p className="text-gray-600 mb-6">
-              Welcome to Rojjo's, where we're writing a fresh chapter in the story of Bengali cuisine. 
+              Welcome to <span className="text-amber-700 text-semibold">Rojjo's</span>, where we're writing a fresh chapter in the story of Bengali cuisine. 
               As a new establishment, we bring together time-honored recipes and modern culinary expertise 
               to create an exceptional dining experience.
             </p>
