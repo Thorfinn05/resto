@@ -31,7 +31,7 @@ const PAST_EVENTS = [
     date: "October 15-24, 2023",
     time: "11:00 AM - 11:00 PM",
     description: "A celebration of Bengali cuisine during the auspicious days of Durga Puja.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Kolkata_Biryani.jpg/1200px-Kolkata_Biryani.jpg"
+    image: "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/hospibuz/media/post_attachments/wp-content/uploads/2023/10/Bengali-food-1.jpg"
   }
 ];
 
