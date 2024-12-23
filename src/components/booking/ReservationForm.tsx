@@ -77,7 +77,7 @@ export default function ReservationForm() {
               <input
                 type="date"
                 required
-                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md px-4 py-2 focus:ring-2 focus:ring-red-500 outline-none pr-10"
+                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md px-6 py-2 focus:ring-2 focus:ring-red-500 outline-none pr-10"
                 value={formData.date}
                 onChange={(e) => setFormData({...formData, date: e.target.value})}
               />
