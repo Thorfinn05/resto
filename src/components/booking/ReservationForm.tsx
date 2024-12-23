@@ -77,7 +77,7 @@ export default function ReservationForm() {
               <input
                 type="date"
                 required
-                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md pl-4 pr-4 py-2 focus:ring-2 focus:ring-red-500 outline-none"
+                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md pl-2 pr-4 py-2 focus:ring-2 focus:ring-red-500 outline-none"
                 value={formData.date}
                 onChange={(e) => setFormData({...formData, date: e.target.value})}
               />
@@ -91,7 +91,7 @@ export default function ReservationForm() {
               <input
                 type="time"
                 required
-                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md px-4 py-2 focus:ring-2 focus:ring-red-500 outline-none pr-10"
+                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md pl-2 pr-4 py-2 focus:ring-2 focus:ring-red-500 outline-none pr-10"
                 value={formData.time}
                 onChange={(e) => setFormData({...formData, time: e.target.value})}
               />
@@ -103,7 +103,7 @@ export default function ReservationForm() {
             <label className="block text-sm font-medium text-white">Guests</label>
             <div className="relative">
               <select
-                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md px-4 py-2 focus:ring-2 focus:ring-red-500 outline-none"
+                className="mt-1 w-full rounded-md border-gray-700 bg-gray-900 text-white shadow-md pl-2 pr-4 py-2 focus:ring-2 focus:ring-red-500 outline-none"
                 value={formData.guests}
                 onChange={(e) => setFormData({...formData, guests: e.target.value})}
               >
