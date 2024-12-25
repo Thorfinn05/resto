@@ -11,7 +11,7 @@ const UPCOMING_EVENTS = [
   // },
   {
     title: "Pithe Utsob",
-    date: "January 14-16, 2024",
+    date: "January 14-16, 2025",
     time: "11:00 AM - 9:00 PM",
     description: "Experience the warmth of Traditional Bengali winter delicacies featuring various types of Pithe, Puli and special Nolen Gurer treats.",
     image: "https://cookwithbisht.com/wp-content/uploads/2024/06/Famous-Bengali-Dudh-Puli-Pitha-Recipe.jpg"
@@ -21,14 +21,14 @@ const UPCOMING_EVENTS = [
 const PAST_EVENTS = [
   {
     title: "Bengali New Year Celebration",
-    date: "April 14, 2023",
+    date: "April 14, 2024",
     time: "6:00 PM - 10:00 PM",
     description: "A grand celebration of Pohela Boishakh with traditional Bengali cuisine and cultural performances.",
     image: "https://pikturenama.com/wp-content/uploads/2019/09/DP-2019-Marriott-Kolkata-2.jpg"
   },
   {
     title: "Durga Puja Food Festival",
-    date: "October 15-24, 2023",
+    date: "October 15-24, 2024",
     time: "11:00 AM - 11:00 PM",
     description: "A celebration of Bengali cuisine during the auspicious days of Durga Puja.",
     image: "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/hospibuz/media/post_attachments/wp-content/uploads/2023/10/Bengali-food-1.jpg"
