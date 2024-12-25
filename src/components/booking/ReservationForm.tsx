@@ -15,7 +15,7 @@ export default function ReservationForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`Table reserved successfully!\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nDate: ${formData.date}\nTime: ${formData.time}\nGuests: ${formData.guests}`);
+    alert(`Table reserved successfully!\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nDate: ${formData.date}\nTime: ${formData.time}\nGuests: ${formData.guests}\nSpecial Requests: ${formData.specialRequests}\nDetails will be sent to ${formData.email} within 24 hours.`);
     setFormData({
       name: '',
       email: '',
